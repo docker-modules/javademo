@@ -12,7 +12,7 @@ public class Main
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                System.out.println("当前时间:" + this.scheduledExecutionTime());
+                System.out.println("褰撳墠鏃堕棿:" + this.scheduledExecutionTime());
             }
         }, 0, 1000);
     }
